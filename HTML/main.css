@@ -1,0 +1,51 @@
+.Logo{
+    width: 100px;
+    height: 70px;
+    border: 3px solid;
+    padding: 10px;
+    text-align: center;
+    margin-left: 45%;               
+}
+.name input{
+    text-align: center;
+    width: 190px;
+}
+body{
+    text-align: center;
+    background-color: #f8f8f9;
+}
+form{
+    text-align: center;
+}
+button{
+    color: #FFFFFF;
+    background: #11939a;
+    align-content: center;
+    box-sizing: border-box;
+    width: 390px;
+    padding: 10px 10px;
+}
+label{
+    margin: 20px;
+    text-align: justify;
+    position: inherit;
+}
+select{
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+input{
+    box-sizing: border-box;
+    padding: 10px 10px;
+    margin:  10px 0 5px;
+    width: 250pt;
+}
+a{
+    display: block;
+}
+p{
+    font-size: 13px;
+    display: block;
+    text-align: inherit;
+    margin: 20px;
+}
