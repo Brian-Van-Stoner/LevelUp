@@ -1,3 +1,6 @@
+.body{
+    text-align: center;
+}
 .Logo{
     width: 100px;
     height: 70px;
@@ -6,16 +9,15 @@
     text-align: center;
     margin-left: 45%;               
 }
-.name input{
-    text-align: center;
-    width: 190px;
+.inline-block{
+    display: inline-block;
 }
-body{
+input{
     text-align: center;
-    background-color: #f8f8f9;
-}
-form{
-    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    margin:  10px 0 5px;
+    width: 250pt;
 }
 button{
     color: #FFFFFF;
@@ -27,18 +29,12 @@ button{
 }
 label{
     margin: 20px;
-    text-align: justify;
+    text-align: center;
     position: inherit;
 }
 select{
     box-sizing: border-box;
     padding: 10px 10px;
-}
-input{
-    box-sizing: border-box;
-    padding: 10px 10px;
-    margin:  10px 0 5px;
-    width: 250pt;
 }
 a{
     display: block;
@@ -48,4 +44,17 @@ p{
     display: block;
     text-align: inherit;
     margin: 20px;
+}
+@media screen and (max-width: 900px) {
+    .body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: auto;
+        background-color: rgb(206, 237, 241);
+        alignment: center;
+    }
 }

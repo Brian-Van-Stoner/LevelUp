@@ -10,7 +10,7 @@
     <!--<script src="main.js"></script>-->
 </head>
 <body>
-    <div class="container">
+    <div class="container body">
         <div class="Logo" style="background-color: black;">
             <h3 style="color:white;">UBER</h1>
         </div>
@@ -18,23 +18,37 @@
             <h1>Sign Up to Ride</h1>
             <h3>Safe, reliable rides in minutes</h3>
         </div>
-            <label>First name(required)</label>
-            <label>Last name(required)</label>
-        <div>
-            <input name="fname" type="text" placeholder="FirstName">
-            <input name="lname" type="text" placeholder="LastName">
+        <div class="flex-container">
+            <div style="flex-basis: 215px" class="inline-block">
+                <label>First name (required)</label>
+                <br>
+                <input type="text" placeholder="  First name" required/>
+            </div>
+            <div style="flex-basis: 240px" class="inline-block">
+                <label>Last name (required)</label>
+                <br>
+                <input type="text" placeholder="  Last name" required/>
+                <br>
+            </div>
         </div>
             <label>Enter your phone number(required)</label>
         <div class="number">
-            <select name="countrycode"></select>
-            <input name="number" type="number" placeholder="Phone number">
+            <select name="countrycode">
+                <option role="option" value="256" selected>+256</option>
+                <option role="option" value="256">+254</option>
+                <option role="option" value="256">+257</option>
+                <option role="option" value="256">+255</option>
+            </select>
+            <div style="flex-basis: 500px">
+                <input type="number" placeholder="  Phone number" required/>
+            </div>
         </div>
             <label>Enter your email(required)</label>
-        <div>
+        <div class="wrap">
             <input name="email" type="email" placeholder="Email">
         </div>
-        <div>
             <label>Enter your password(required)</label>
+        <div>
             <input name="password" type="password" placeholder="Password">
         </div>
         <a href="#">Add a promo code</a>
