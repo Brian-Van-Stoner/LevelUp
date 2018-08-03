@@ -55,6 +55,6 @@ p{
         margin-right: 10%;
         height: auto;
         background-color: rgb(206, 237, 241);
-        alignment: center;
+        align-content: center;
     }
 }
