@@ -45,7 +45,7 @@ p{
     text-align: inherit;
     margin: 20px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 750px) {
     .body {
         display: flex;
         flex-direction: column;
@@ -55,6 +55,9 @@ p{
         margin-right: 10%;
         height: auto;
         background-color: rgb(206, 237, 241);
-        align-content: center;
+        align-self: center;
+    }
+    input{
+        width: 100%;
     }
 }
