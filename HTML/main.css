@@ -22,6 +22,7 @@ select {
     box-sizing: border-box;
     border-right: none;
     height: 40px;
+    width: 56px;
 } 
 input {
     height: 40px;
