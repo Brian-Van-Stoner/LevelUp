@@ -1,63 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <!--Character set used for this program-->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Sign Up</title>
+    <title>Uber Sign Up</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <!--<script src="main.js"></script>-->
-</head>
+</head
 <body>
-    <div class="container body">
-        <div class="Logo">
-            <h3 style="color:white;">UBER</h1>
+    <div class="body_con">
+        <div class="logo">
+            <h3>UBER</h3>
         </div>
         <div class="head">
-            <h1>Sign Up to Ride</h1>
+            <h1> Sign Up to Ride</h1>
             <h3>Safe, reliable rides in minutes</h3>
         </div>
-        <div class="flex-container">
-            <div style="flex-basis: 215px" class="inline-block">
-                <label>First name (required)</label>
-                <br>
-                <input type="text" placeholder="  First name" required/>
+        <form class="form-wrap">
+            <div class="form-item names_div">
+                <div class="f_name">
+                    <label>First Name (required)</label>
+                    <input type="text" id="f_name" placeholder="First name" required>
+                </div>
+                <div class="l_name">
+                    <label>Last Name (required)</label>
+                    <input type="text" id="l_name" placeholder="Last name" required>
+                </div>
             </div>
-            <div style="flex-basis: 240px" class="inline-block">
-                <label>Last name (required)</label>
-                <br>
-                <input type="text" placeholder="  Last name" required/>
-                <br>
+            <div class="form-item">
+                <label>Enter your phone number (required)</label>
+                <select aria-roledescription="option">
+                    <option role="option" value="">+256</option>
+                </select>
+                <input type="tel" placeholder="Phone Number" required>
             </div>
-        </div>
-            <label>Enter your phone number(required)</label>
-        <div class="number">
-            <select name="countrycode">
-                <option role="option" value="256" selected>+256</option>
-                <option role="option" value="254">+254</option>
-                <option role="option" value="257">+257</option>
-                <option role="option" value="255">+255</option>
-            </select>
-            <div style="flex-basis: 500px">
-                <input type="number" placeholder="  Phone number" required/>
+            <div class="form-item">
+                <label>Enter your email address (required)</label>
+                <input class="input-style" type="email" placeholder="Email" required>
             </div>
-        </div>
-            <label>Enter your email(required)</label>
-        <div class="wrap">
-            <input name="email" type="email" placeholder="Email" required/>
-        </div>
-            <label>Enter your password(required)</label>
-        <div>
-            <input name="password" type="password" placeholder="Password" required/>
-        </div>
-        <a href="#">Add a promo code</a>
-        <button type="submit">SIGN UP</button>
-        <p>By clicking "Sign Up", you agree to Uber's
-            <a href="#"> Terms of Use</a>and acknowledge you have read the
-            <a href="#">Privacy Policy.</a>
-        </p>
-
+            <div class="form-item">
+                <label>Enter a password (required)</label>
+                <input class="input-style" type="password" placeholder="Password" required>
+            </div>
+            <div class="form-item">
+                <a href="#"> Add a promo code</a>
+            </div>
+            <div class="form-item">
+                <button type="submit">SIGN UP</button>
+            </div>
+            <div class="form-item privacy">
+                <p>
+                    By clicking "Sign Up", you agree to Uber's
+                    <a href="#">Terms of Use</a>
+                    and acknowledge you have read the
+                    <a href="#">Privacy Policy</a>.
+                </p>
+            </div>
+        </form>
     </div>
 </body>
 </html>
