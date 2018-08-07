@@ -1,0 +1,4 @@
+{
+  "test.py::TestPhoneBook": true,
+  "test.py::TestPhoneBook::test_search": true
+}
