@@ -11,3 +11,5 @@ class Phonebook():
         for k,v in self.user_details.items():
             if name == k:
                 return True
+            if name == v:
+                return False
